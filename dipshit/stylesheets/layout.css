@@ -1,0 +1,246 @@
+html, body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg");
+    background-size:auto;
+    background-position: center;
+    background-size: contain;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+#bodywrap{
+    width:128px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#header{
+    margin:0;
+    padding: 0;
+    height:10px;
+    background-color: #d2232a;
+}
+h4,a{
+	text-decoration: none;
+}
+h3, h4{
+	text-decoration: none;
+	color: white;
+}
+#container{  /* Its contains Leftsidebar, topbar, rightsidebar, bottombar*/
+    margin:0;
+    padding: 0;
+    height:120px;
+}
+                #leftsidebar{
+                    margin:0;
+                    padding: 0;
+                    width:250px;
+                    height:120px;
+                    float: left;
+                    
+                }
+				.logo{
+					font-family: sans-serif;
+					color:#f7ea46;
+				}
+				#topspace{
+					margin:0;
+                    padding: 0;
+                    width:710px;
+                    height:60px;
+                    background-color: #2f2f2f;
+                    float: left;
+				}
+                #topbar{
+                    margin:0;
+                    padding: 0;
+                    width:161px;
+                    height:60px;
+                    background-color: #2f2f2f;
+                    float: left;
+                }
+                #rightsidebar{
+                    padding: 0;
+                    width:159px;
+                    height:60px;
+                    background-color: #000000;
+                    float: right;
+                    margin-top: 0;
+                }
+                #bottombar{
+                    margin:0;
+                    padding: 0;
+                    width: 1030px;
+                    height:60px;
+                    background-color:#4f4f4f;
+                    float:right;
+                }
+                .menu {
+                    list-style: none;
+                }
+                .menu ul{
+                    list-style: none;
+                    width: 18em;
+                }
+                .menu li {
+                    display: block;
+                    padding: 2px 20px;
+                    text-decoration: none;
+                    position: relative;
+                    float:left;
+                    margin: 0 10px;
+                }
+                .menu  > li:hover{
+                    color:#d2232a;
+                }
+                .menu li:hover .sub-menu {
+                    z-index:1;
+                    opacity:1;
+                    
+                }
+                 
+                .sub-menu {
+                    width:30px;
+                    padding:5px 0px;
+                    position:absolute;
+                    top:30px;
+                    left:0px;
+                    z-index:-1;
+                    opacity:0;
+                    transition:opacity linear 0.15s;
+                    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+                    background:#4f4f4f;
+                }
+                .sub-menu li {
+                    display:block;
+                    font-size:18px;
+                }
+                 
+                .sub-menu li a {
+                    padding:5px 20px;
+                    display:block;
+                    color: white;
+                    text-decoration: none;
+                }
+                .sub-menu li a:hover {
+                    padding:5px 20px;
+                    display:block;
+                    color: #d2232a;
+                    text-decoration: none;
+                }
+                 
+                .sub-menu li a:hover, .sub-menu .current-item a {
+                    background:#4f4f4f;
+                }
+#mainpicture{
+    margin:0;
+    padding: 0;
+    height: 600px;
+    background: url("../images/banner.jpg");
+    opacity: 2;
+    background-size: cover;
+}
+.banner-matter1{
+	padding-top: 230px;
+	padding-left: 130px;
+}
+.banner-matter2{
+	padding-left: 130px;
+	background: black;
+	opacity: 0.70;
+}
+.banner-matter2 h1{
+	font-size: 50px;
+	opacity: 1.0;
+	color: white;
+}
+.out{
+	padding-top: 20px;
+	padding-left: 130px;
+}
+.out a{
+	font-size: 32px;
+}
+.out .find{
+	color: white;
+	text-decoration: none;
+}
+.out .shop{
+	color: blue;
+	text-decoration: none;
+}
+#slideproducts{
+    margin-bottom: 0px;
+    padding: 0;
+    height:250px;
+    background-color: yellow;
+}
+#stockproducts{
+    margin-bottom: 0px;
+    padding: 0;
+    height:380px;
+    background-color: white;
+}
+#pic11{
+	padding-top: 15px;
+	padding-left: 50px;
+    width: 234px;
+    height:214px;
+    float: left;
+	font-family: 'Raleway', sans-serif;
+	
+}
+#pic12{
+	padding-top: 15px;
+	padding-left: 80px;
+    width: 234px;
+    height:214px;
+    float: left;
+	font-family: 'Raleway', sans-serif;
+}
+#pic13{
+	padding-top: 15px;
+	padding-left: 80px;
+    width: 234px;
+    height:214px;
+    float: left;
+	font-family: 'Raleway', sans-serif;
+}
+#advertise{ /* its contain picture1, picture2 picture3 of advertise*/
+    margin-bottom: 0px;
+    padding: 0;
+    height:250px;
+}
+#pic1{
+    width: 426.68px;
+    height:250px;
+    background: url("../images/pi1.jpg");
+    background-size: cover;
+    float: left;
+}
+#pic2{
+    width: 426.67px;
+    height:250px;
+    background: url("../images/pi2.jpg");
+    background-size: cover;
+    float: left;
+}
+#pic3{
+    width:426.64px;
+    height:250px;
+    background: url("../images/pi3.jpg");
+    background-size:cover;
+    float: left;
+}
+#footer{
+    margin-bottom: 0px;
+    padding: 0;
+    height:130px;
+    background-color: #d2232a;
+}
